@@ -5,11 +5,14 @@ A simple infix expression evaluator that also parses dice rolls.
 
 
 
-### Expression-Roller follows proper Orders of Operation:
+### Expression-Roller follows proper Orders of Operation by constructing a binary expression tree:
 
 ![expression-operation-orders][expression-operation-orders]
 
 
+|          *2 * (1 + 1)*           |          *2 * 1 + 1*           |
+| :-----------------------: | :-----------------------: |
+| ![expression-tree1][expression-tree1] | ![expression-tree2][expression-tree2] |
 
 ----
 
@@ -56,6 +59,8 @@ A simple infix expression evaluator that also parses dice rolls.
 ![expression-complex-rolls][expression-complex-rolls]
 
 [expression-roller]: https://i.imgur.com/TB7H0rH.png
+[expression-tree1]: https://i.imgur.com/r81ptse.png
+[expression-tree2]: https://i.imgur.com/k0l9J9X.png
 [expression-operation-orders]: https://i.imgur.com/KuWlfgP.png
 [expression-rolls]: https://i.imgur.com/BlDXGZM.gif
 [expression-complex-rolls]: https://i.imgur.com/alaUjaH.gif
